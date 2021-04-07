@@ -11,10 +11,10 @@
 
 */
 
-#define lessen 1
+#define lessen 3
 //レッスン 1
 #if lessen==0
-
+#include<stdio.h>
 
 int main() {
 	printf("hellw world\n");
@@ -26,8 +26,12 @@ int main() {
 	printf("test テスト \n");
 	return 0;
 }
-//レッスン2
+
 #elif lessen==2
+
+//レッスン2
+
+#include<stdio.h>
 /*
 C言語　古い高級言語
 関数より成り立つプログラミング言語
@@ -59,8 +63,10 @@ int main() {
 	return 0;
 }
 
-//レッスン３　変数と四則演算
+
 #elif lessen==3
+//レッスン３　変数と四則演算
+
 /*変数をデータを置く箱として考える
 
 整数型int 単精度浮動小数点型float 倍精度浮動小数点型double 文字型char
@@ -88,12 +94,21 @@ int main() {
 	//変数を宣言するとき、直接変数に値を与えることもできる。
 
 	int age=18; //年齢を小数で表すことはないので整数型を使用する
-	float height=1.7f;　//身長を表すに七桁以下で事足りるのでfloat型を使用する。
+	float height=1.7f;//身長を表すに七桁以下で事足りるのでfloat型を使用する。
 	/*
 		float型に値をあたえるとき、値の最後にｆをつけてfloat型であることを表す必要がある。
 	*/
 	//変数に与えた値に変化を加える場合は再度値を与える
 
+	//年齢が19歳になったとする。
+
+	age = 19;
+
+	//身長が1.8になったとする
+
+	height = 1.8;
+
+	//レッスン３前半終了
 
 	return 0;
 }
