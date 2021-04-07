@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿#include<stdio.h>
 
 //ctrl+f5 debug
@@ -16,6 +17,9 @@
 #if lessen==0
 
 
+=======
+#include <stdio.h> 
+>>>>>>> Stashed changes
 int main() {
 	printf("hellw world\n");
 	return 0;
