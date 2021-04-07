@@ -1,0 +1,4 @@
+﻿  ソース.cpp
+D:\git\first\Project1\ソース.cpp(19,9): warning C4566: ユニバーサル文字名 '\u6D4B' によって表示されている文字は、現在のコード ページ (932) で表示できません
+D:\git\first\Project1\ソース.cpp(19,9): warning C4566: ユニバーサル文字名 '\u8BD5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+D:\git\first\Project1\ソース.cpp(17): fatal error C1075: '{': 一致するトークンが見つかりませんでした
