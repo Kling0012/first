@@ -12,9 +12,15 @@
 */
 
 #define lessen 3
+<<<<<<< HEAD:Project1/ソース.cpp
 //レッスン 1
 #if lessen==0
 #include<stdio.h>
+=======
+
+//レッスン 1
+#if lessen==0
+>>>>>>> first:Project1/c_.cpp
 
 int main() {
 	printf("hellw world\n");
@@ -31,7 +37,10 @@ int main() {
 
 //レッスン2
 
+<<<<<<< HEAD:Project1/ソース.cpp
 #include<stdio.h>
+=======
+>>>>>>> first:Project1/c_.cpp
 /*
 C言語　古い高級言語
 関数より成り立つプログラミング言語
@@ -67,6 +76,10 @@ int main() {
 #elif lessen==3
 //レッスン３　変数と四則演算
 
+<<<<<<< HEAD:Project1/ソース.cpp
+=======
+int main(){
+>>>>>>> first:Project1/c_.cpp
 /*変数をデータを置く箱として考える
 
 整数型int 単精度浮動小数点型float 倍精度浮動小数点型double 文字型char
@@ -88,13 +101,17 @@ int main() {
 
 */
 
-int main() {
-	
+
 	//年齢と身長を表す変数を宣言する
 	//変数を宣言するとき、直接変数に値を与えることもできる。
 
+<<<<<<< HEAD:Project1/ソース.cpp
 	int age=18; //年齢を小数で表すことはないので整数型を使用する
 	float height=1.7f;//身長を表すに七桁以下で事足りるのでfloat型を使用する。
+=======
+	int age = 18; //年齢を小数で表すことはないので整数型を使用する
+	float height = 1.7f;//身長を表すに七桁以下で事足りるのでfloat型を使用する。
+>>>>>>> first:Project1/c_.cpp
 	/*
 		float型に値をあたえるとき、値の最後にｆをつけてfloat型であることを表す必要がある。
 	*/
@@ -106,13 +123,54 @@ int main() {
 
 	//身長が1.8になったとする
 
+<<<<<<< HEAD:Project1/ソース.cpp
 	height = 1.8;
 
 	//レッスン３前半終了
+=======
+	height = 1.8f;
+
+	//レッスン３前半終了
+
+	//レッスン３　四則演算
+
+
+	/*
+	四則演算を活用することで、演算子を用いて変数に変化を与えることができる。
+	演算の順序は通常の計算と同じく、かけ割→足し引きの順で行われる。
+	カッコを利用して優先度を帰ることもできる。
+	*/
+
+	//では年齢が一歳増加したとする
+	age = age + 1;
+	//身長が五センチ伸びたとする。
+	height = height + 0.5f;
+		//これは最初の変数の値ではなく、順序的に一度書き換えられた物が適用され計算されている
+
+	//printfを利用して出力することができる。
+	//この時の表現は以下のようになる
+
+	printf("%d", age);
+	printf("\n%f",height);
+
+	//printfはスクリーンに出力するコマンドである
+
+
+
+		//また変数同士での演算もできる
+
+		int a, b, c;
+
+		a = 2;
+		b = 4;
+		c = 6;
+
+		//最終的にprintfで
+>>>>>>> first:Project1/c_.cpp
 
 	return 0;
 }
-
+  
 #endif 
 
 
