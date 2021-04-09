@@ -12,15 +12,10 @@
 */
 
 #define lessen 3
-<<<<<<< HEAD:Project1/ソース.cpp
-//レッスン 1
-#if lessen==0
-#include<stdio.h>
-=======
+
 
 //レッスン 1
 #if lessen==0
->>>>>>> first:Project1/c_.cpp
 
 int main() {
 	printf("hellw world\n");
@@ -37,10 +32,7 @@ int main() {
 
 //レッスン2
 
-<<<<<<< HEAD:Project1/ソース.cpp
-#include<stdio.h>
-=======
->>>>>>> first:Project1/c_.cpp
+
 /*
 C言語　古い高級言語
 関数より成り立つプログラミング言語
@@ -76,10 +68,9 @@ int main() {
 #elif lessen==3
 //レッスン３　変数と四則演算
 
-<<<<<<< HEAD:Project1/ソース.cpp
-=======
+
 int main(){
->>>>>>> first:Project1/c_.cpp
+
 /*変数をデータを置く箱として考える
 
 整数型int 単精度浮動小数点型float 倍精度浮動小数点型double 文字型char
@@ -105,13 +96,11 @@ int main(){
 	//年齢と身長を表す変数を宣言する
 	//変数を宣言するとき、直接変数に値を与えることもできる。
 
-<<<<<<< HEAD:Project1/ソース.cpp
+
 	int age=18; //年齢を小数で表すことはないので整数型を使用する
 	float height=1.7f;//身長を表すに七桁以下で事足りるのでfloat型を使用する。
-=======
-	int age = 18; //年齢を小数で表すことはないので整数型を使用する
-	float height = 1.7f;//身長を表すに七桁以下で事足りるのでfloat型を使用する。
->>>>>>> first:Project1/c_.cpp
+
+
 	/*
 		float型に値をあたえるとき、値の最後にｆをつけてfloat型であることを表す必要がある。
 	*/
@@ -123,11 +112,7 @@ int main(){
 
 	//身長が1.8になったとする
 
-<<<<<<< HEAD:Project1/ソース.cpp
-	height = 1.8;
 
-	//レッスン３前半終了
-=======
 	height = 1.8f;
 
 	//レッスン３前半終了
@@ -165,9 +150,11 @@ int main(){
 		b = 4;
 		c = 6;
 
-		//最終的にprintfで
->>>>>>> first:Project1/c_.cpp
 
+
+
+		//最終的にprintfでデスクトップ上に出力する
+		printf("aは%d ｂは%d cは%d となる", a, b, c);
 	return 0;
 }
   
