@@ -1,2 +1,5 @@
 ﻿  c_.cpp
+D:\git\first\Project1\c_.cpp(251,6): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+D:\git\first\Project1\c_.cpp(265,14): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+D:\git\first\Project1\c_.cpp(266,6): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
   Project1.vcxproj -> D:\git\first\Project1\Debug\Project1.exe
