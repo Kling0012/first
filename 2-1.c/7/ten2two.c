@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-#define KETA 7 
+#define KETA 20
 
 /* 10進数nを7桁の2進数に変換して出力 */
 void print_binary(int n)
@@ -10,8 +10,13 @@ void print_binary(int n)
     int i, digits[KETA] = {0};
 
     /* ここで基数変換する */
+     for (i = 0; i < KETA; i++) {
+        digits[KETA-i-1]=n%2;
+        n=n/2;
+     }
 
     for (i = 0; i < KETA; i++) {
+
         printf("%d", digits[i]);
     }
     printf("\n");
