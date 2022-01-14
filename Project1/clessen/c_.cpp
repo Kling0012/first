@@ -11,7 +11,7 @@
 
 */
 
-#define lessen 99
+#define lessen 1
 
 
 //レッスン 1
