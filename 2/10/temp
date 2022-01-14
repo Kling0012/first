@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+void sw (int *px ,int *py,int *pz)
+{
+    int i;
+    for ( i = 0; i < count; i++)
+    {
+        if (*px>*py&&*px>*pz||*py>*pz)
+        {
+
+        }
+    }
+    
+    int temp  = *px;
+    *px = *py;
+    *py= temp;
+
+}
+
+void sr (int *n1 ,int *n2,int *n3)
+{
+    if (*n1>*n2&&*n1>*n3||*n2>*n3)
+    {
+        /* code */
+        sw(n1,n2,n3);
+    }
+    
+
+}
+
+int main(void) 
+{int na= 7, nb= 5, nc= 2;
+    printf("ソート前: ");
+    printf("%d %d %d¥n", na, nb, nc);
+    sr(&na, &nb, &nc);
+    printf("ソート後: ");
+    printf("%d %d %d¥n", na, nb, nc);
